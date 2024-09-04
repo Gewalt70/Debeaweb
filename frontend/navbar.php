@@ -12,7 +12,7 @@
     <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.php"></a>
             <nav class="flex items-center">
-                <a href="index.php"><img src="../frontend/images/gifi.png" class="w-15 h-10 mr-5 hover:text-gray-900"></a>
+                <a href="index2.php"><img src="../frontend/images/gifi.png" class="w-15 h-10 mr-5 hover:text-gray-900"></a>
                 
                 <!-- Centrage du texte et de l'icône -->
                 <a href="ean.php" class="mr-5 hover:text-gray-900">EAN</a>
