@@ -2,9 +2,9 @@
 <html lang="fr">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <script src="https://cdn.tailwindcss.com"></script> 
-    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
     <style>
         .slide-in-left {
             transform: translateX(-100%);
@@ -18,11 +18,10 @@
 </head>
 
 <body>
-
-<header class="text-gray-700 body-font border-b border-gray-200">
     <div class="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
         <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="index.php"></a>
             <nav class="flex items-center">
+                
                 <a href="index2.php"><img src="../frontend/images/gifi.png" class="w-15 h-10 mr-5 hover:text-gray-900"></a>              
                 <a href="ean.php" class="mr-5 hover:text-gray-900">EAN</a>
                 <a href="Palettes.php" class="mr-5 hover:text-gray-900">Palettes</a>
@@ -33,7 +32,7 @@
                 <button id="openPanel" class="ml-5 text-gray-900">Ouvrir</button>
             </nav>
     </div>
-</header>
+
 
 <div id="slidePanel" class="fixed top-12 left-0 h-full bg-gray-100 shadow-lg w-80 slide-in-left z-50" style="display: none;">
     <div class="p-5">
@@ -57,12 +56,10 @@
         <button id="closePanel" class="mt-5 text-red-500">Fermer</button>
     </div>
 </div>
-
 <script>
     const openPanel = document.getElementById('openPanel');
     const closePanel = document.getElementById('closePanel');
     const slidePanel = document.getElementById('slidePanel');
-
     openPanel.addEventListener('click', () => {
         slidePanel.style.display = 'block';
         setTimeout(() => {
@@ -70,7 +67,6 @@
             slidePanel.classList.add('slide-out-left');
         }, 10);
     });
-
     closePanel.addEventListener('click', () => {
         slidePanel.classList.remove('slide-out-left');
         slidePanel.classList.add('slide-in-left');
