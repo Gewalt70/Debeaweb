@@ -5,7 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <script src="https://cdn.tailwindcss.com"></script> 
   <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
-    <style>
+    <!-- <style>
         .slide-in-left {
             transform: translateX(-100%);
             transition: transform 0.3s ease-in-out;
@@ -14,7 +14,7 @@
             transform: translateX(0);
             transition: transform 0.3s ease-in-out;
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -56,7 +56,7 @@
         <button id="closePanel" class="mt-5 text-red-500">Fermer</button>
     </div>
 </div>
-<script>
+<!-- <script>
     const openPanel = document.getElementById('openPanel');
     const closePanel = document.getElementById('closePanel');
     const slidePanel = document.getElementById('slidePanel');
@@ -74,6 +74,6 @@
             slidePanel.style.display = 'none';
         }, 300);
     });
-</script>
+</script> -->
 </body>
 </html>
